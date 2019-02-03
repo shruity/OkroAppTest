@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/preferences_system_power"
+        android:contentDescription="@string/image"/>
+
+    <TextView
+        android:id="@+id/tvLanding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/landing_screen"
+        android:textColor="@color/hex"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:textSize="18sp"
+        android:textColor="@color/hex"
+        android:textColorHint="#bababa"
+        android:padding="10dp"
+        android:background="@drawable/edittextbg"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:textSize="18sp"
+        android:textColor="@color/hex"
+        android:textColorHint="#bababa"
+        android:padding="10dp"
+        android:background="@drawable/edittextbg"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mobile_number"
+        android:textSize="18sp"
+        android:textColor="@color/hex"
+        android:textColorHint="#bababa"
+        android:padding="10dp"
+        android:background="@drawable/edittextbg"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tvNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_next_screen"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/btnbg"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+</LinearLayout>
